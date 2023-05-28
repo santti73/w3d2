@@ -1,0 +1,105 @@
+html, body, h1, h2, h3, p, ol, ul, li, a {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font-size: 100%;}
+body {
+     
+}
+    p {
+        text-align: left;
+        margin: 20px;
+        font-family: font;
+    }
+    h3 {
+        text-align: left;
+        font-size: 18px;
+        background-color: rgb(247, 190, 85);
+        padding: 15px 20px 15px 32px;
+        color: #ffffff;
+        font-family: font;
+    }
+    h2 {padding: 15px 15px 10px 15px;
+        font-size: 20px;
+        font-family: font;
+        text-align: left;
+    }
+        
+    #navegation {
+        background-color: rgb(247, 190, 85);
+        width: auto;
+        height: 53px;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        
+    }
+    .title {
+    }    
+#nav {
+    background-color: rgb(247, 190, 85); 
+    display: flex;
+    flex-flow: row nowrap;
+    flex-grow: 1;
+    justify-content: flex-end;
+  }   
+ul li {
+    display: inline-flex;
+}
+
+li a {
+    padding: 15px 30px 15px 35px;
+    text-decoration: none;
+    font-family: font;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;   
+    
+}
+li a:hover {
+    color: rgb(139, 97, 18);
+}     
+@font-face {
+    font-family: font;
+    src: url(Pangolin-Regular.ttf);
+}
+
+#info {
+    clear: both;
+    text-align: center;
+    
+}
+#boxcontainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+.box {
+    height: 510px;
+    width: 310px;
+    background-color: #ffffff;
+    margin: 100px 15px 50px 15px;
+    border:rgb(247, 190, 85) solid 2px ;
+    overflow-wrap: break-word;
+    border-radius: 7px;
+}
+input[type=submit], label[for=More-Info]
+ { width: 250px;
+    height: 30px;
+    text-align: bottom;
+    font-family: font;
+    background-color: rgb(247, 190, 85);
+    border: 0px;
+    border-radius: 3px;
+    color: #ffffff;
+}
+#Moreinfo:hover {
+    color: rgb(139, 97, 18);
+}
+#Moreinfo:active {
+    background-color: rgb(202, 169, 107);
+    box-shadow: 0 5px rgb(145, 120, 75);
+    transform: translateY(4px);
+  }
